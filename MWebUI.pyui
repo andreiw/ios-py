@@ -1,0 +1,104 @@
+[
+  {
+    "selected" : false,
+    "frame" : "{{0, 0}, {260, 393}}",
+    "class" : "View",
+    "nodes" : [
+      {
+        "selected" : true,
+        "frame" : "{{0, 0}, {260, 366}}",
+        "class" : "WebView",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "uuid" : "E8061BFB-4EF4-4A68-B579-983F42AB1707",
+          "frame" : "{{30, 97}, {200, 200}}",
+          "scales_to_fit" : true,
+          "class" : "WebView",
+          "name" : "web",
+          "flex" : "WHB"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{0, 365}, {260, 28}}",
+        "class" : "View",
+        "nodes" : [
+          {
+            "selected" : true,
+            "frame" : "{{0, 0}, {80, 28}}",
+            "class" : "Button",
+            "nodes" : [
+
+            ],
+            "attributes" : {
+              "flex" : "HR",
+              "action" : "go_back",
+              "image_name" : "iob:ios7_arrow_back_32",
+              "frame" : "{{90, 26}, {80, 32}}",
+              "title" : "",
+              "uuid" : "A88F180E-26DD-4C52-8E94-3FAE99AEA9F4",
+              "class" : "Button",
+              "font_size" : 15,
+              "name" : "back"
+            }
+          },
+          {
+            "selected" : false,
+            "frame" : "{{180, 0}, {80, 28}}",
+            "class" : "Button",
+            "nodes" : [
+
+            ],
+            "attributes" : {
+              "flex" : "HL",
+              "action" : "midi_stop",
+              "image_name" : "iob:volume_mute_32",
+              "frame" : "{{90, 26}, {80, 32}}",
+              "title" : "",
+              "uuid" : "A88F180E-26DD-4C52-8E94-3FAE99AEA9F4",
+              "class" : "Button",
+              "font_size" : 15,
+              "name" : "stop"
+            }
+          },
+          {
+            "selected" : false,
+            "frame" : "{{88, 0}, {80, 28}}",
+            "class" : "Button",
+            "nodes" : [
+
+            ],
+            "attributes" : {
+              "flex" : "HLR",
+              "action" : "go_fwd",
+              "image_name" : "iob:ios7_arrow_forward_32",
+              "frame" : "{{90, 26}, {80, 32}}",
+              "title" : "",
+              "uuid" : "A88F180E-26DD-4C52-8E94-3FAE99AEA9F4",
+              "class" : "Button",
+              "font_size" : 15,
+              "name" : "fw"
+            }
+          }
+        ],
+        "attributes" : {
+          "flex" : "WHT",
+          "frame" : "{{80, 147}, {100, 100}}",
+          "class" : "View",
+          "name" : "buttons",
+          "uuid" : "AC9C7CCF-3B65-4657-949B-121B3B1EA5A7"
+        }
+      }
+    ],
+    "attributes" : {
+      "flex" : "",
+      "enabled" : true,
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "custom_class" : "MyView"
+    }
+  }
+]

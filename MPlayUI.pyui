@@ -1,0 +1,91 @@
+[
+  {
+    "selected" : false,
+    "frame" : "{{0, 0}, {273, 320}}",
+    "class" : "View",
+    "nodes" : [
+      {
+        "selected" : false,
+        "frame" : "{{0, 0}, {80, 80}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "action" : "play_hit",
+          "flex" : "RB",
+          "name" : "play",
+          "frame" : "{{98, 110}, {80, 32}}",
+          "title" : "Button",
+          "uuid" : "73935169-55EF-4BBA-B6CF-E26A5A98F266",
+          "class" : "Button",
+          "font_size" : 15,
+          "image_name" : "iob:play_256"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{95, 0}, {80, 80}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "action" : "stop_hit",
+          "flex" : "LRB",
+          "image_name" : "iob:stop_256",
+          "frame" : "{{98, 110}, {80, 32}}",
+          "title" : "Button",
+          "uuid" : "73935169-55EF-4BBA-B6CF-E26A5A98F266",
+          "class" : "Button",
+          "font_size" : 15,
+          "name" : "stop"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{190, 0}, {80, 80}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "action" : "next_hit",
+          "flex" : "LB",
+          "name" : "next",
+          "frame" : "{{98, 110}, {80, 32}}",
+          "title" : "Button",
+          "uuid" : "73935169-55EF-4BBA-B6CF-E26A5A98F266",
+          "class" : "Button",
+          "font_size" : 15,
+          "image_name" : "iob:ios7_fastforward_256"
+        }
+      },
+      {
+        "selected" : true,
+        "frame" : "{{0, 286}, {273, 34}}",
+        "class" : "Slider",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "uuid" : "1305685B-F7B9-4B9F-B651-8A3F08684D95",
+          "frame" : "{{37, 143}, {200, 34}}",
+          "value" : 0.5,
+          "class" : "Slider",
+          "name" : "slider",
+          "flex" : "WT"
+        }
+      }
+    ],
+    "attributes" : {
+      "flex" : "",
+      "custom_class" : "MyView",
+      "enabled" : true,
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "name" : ""
+    }
+  }
+]
